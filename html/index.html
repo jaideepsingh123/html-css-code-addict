@@ -7,36 +7,67 @@
     <title>home</title>
 </head>
 <body>
-    <!-- nested lists -->
-    <ol>
-        <li>aloo puri</li>
-        <ul>
-            <li>lassi</li>
-            <li>chaai</li>
-        </ul>
-        <li>chole bhature</li>
-    
-        </body>
-        </html>
-        <!-- table ,table row,table colummns/td,table height/heding,table cell -->
-        <table>
-            <tr>
-                <td>number</td>
-                <td>name</td>
-            </tr>
-            <tr>
-                <th>number</th>
-                <th>name</th>
-            </tr>
-            
-            <tr>
-                <td>1</td>
-                <td>john</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>sarah</td>
-            </tr>
-
-        </table>
-            
+    <form action="t" method="">
+        <!-- text input in forms -->
+        <em>
+            <label for="first name">first name </label>
+       <input type="text" name="first name" id="first name"
+       placeholder="please type your first name">
+        </em>
+        <br>
+        <br>
+        <!-- last name input in forms -->
+        
+       <strong>
+        <label for="last name">last name </label>
+        <input type="text" name="last name" id="last name"
+        placeholder="please type your last name">
+        <br>
+        <br>
+       </strong>
+       <!-- password input in forms -->
+       <label for="password">password</label>
+       <input type="password"  name="password"
+      placeholder="please type your password">
+       <br>
+       <br>
+       <!-- email input in forms -->
+       <label for="email">email</label>
+       <input type="email"name="email"id="email"
+       value="email@email">
+       <br>
+       <br>
+       <!-- text areas -->
+       <p>Description</p>
+       <textarea name="" id="" cols="10" rows="2"></textarea>
+       <br>
+       <br>
+       <!-- radio buttom -->
+       <p>please select your favorite language?</p>
+       <input type="radio" name="coding" id="" value="javascript"checked>javascript
+      <br>
+       <input type="radio" name="coding" id="" value="java">java
+      <br>
+       <input type="radio" name="coding" id="" value="python">python
+      <br>
+       <br>
+<!-- checkboxes -->
+<p>please select your favorite language?</p>
+<input type="checkbox" name="coding"checked value="javascript"id="">javascript
+<input type="checkbox" name="coding"checked value="java"id="">java
+<input type="checkbox" name="codings"checked value="python"id="">python
+<br>
+<!-- select boxes -->
+<p>please select your favorite language?</p>
+<select name="language" id="">
+    <option value="javascript">javascript</option>
+    <option value="java">java</option>
+    <option value="python">python</option>
+</select>
+       
+       <!-- submit buttom in forms --
+       <!-- input text="submit"value="submit here" -->
+    <button type="submit">submit here </button>       
+    </form>
+</body>
+</html>
